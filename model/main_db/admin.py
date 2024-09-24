@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, Boolean
 
-from detabase.main_db.database import Base
+from database.main_db.database import Base
 
 
 class Admin(Base):

@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer
 
-from detabase.main_db.database import Base
+from database.main_db.database import Base
 
 
 class Chat(Base):
